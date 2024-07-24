@@ -3,6 +3,13 @@ import type { Config } from "tailwindcss";
 const svgToDataUri = require("mini-svg-data-uri");
 
 const colors = require("tailwindcss/colors");
+
+import {
+  Inter as Sans,
+  Bitter as Serif,
+  Fira_Code as Mono,
+} from "@next/font/google";
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -26,6 +33,13 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        pt: ["PT Sans", "sans-serif"],
+        josef: ["Josefin Sans", "sans-serif"],
+        space: ["Space Grotesk", "sans-serif"],
+      },
+
       colors: {
         black: {
           DEFAULT: "#000",

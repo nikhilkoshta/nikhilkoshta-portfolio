@@ -1,3 +1,5 @@
+//index.ts
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -32,7 +34,7 @@ export const gridItems = [
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-center",
+    titleClassName: "",
     img: "",
     spareImg: "",
   },
@@ -72,11 +74,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "PayMoney - Payment transfer App",
+    des: "Built a secure and user-friendly money transfer platform using MERN Stack",
+    img: "/pay3.png",
+    iconLists: [
+      "/re.svg",
+      "/nodejs.png",
+      "/mongodb.png",
+      "/tail.svg",
+      "/jwt.png",
+    ],
+    link: "https://pay-money-client.vercel.app/",
   },
   {
     id: 2,
@@ -90,7 +98,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/Chess.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
