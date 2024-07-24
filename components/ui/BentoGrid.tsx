@@ -78,31 +78,37 @@ export const BentoGridItem = ({
     {
       key: 1,
       name: "React.js",
+      designation: "Frontend Library",
       image: "/reactjs.png",
     },
     {
       key: 2,
       name: "Node.js",
+      designation: "Runtime Environment",
       image: "/node.png",
     },
     {
       key: 3,
       name: "MongoDB",
+      designation: "Database",
       image: "/mongo2.png",
     },
     {
       key: 4,
       name: "AWS",
+      designation: "Cloud Service",
       image: "/aws.png",
     },
     {
       key: 5,
       name: "Docker",
+      designation: "Containerization",
       image: "/docker.png",
     },
     {
       key: 6,
       name: "Next.js",
+      designation: "Framework",
       image: "/1.png",
     },
   ];
