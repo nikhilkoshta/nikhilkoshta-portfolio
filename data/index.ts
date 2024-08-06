@@ -92,7 +92,7 @@ export const projects = [
     title: "Medium - Blog App",
     url: "/medium.com",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/medium.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://medium-blog-app-one.vercel.app/",
   },
@@ -110,9 +110,9 @@ export const projects = [
     title: "Personal Bookshelf - Library App",
     url: "/medium-blog.com",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/personal.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://personal-bookshelf-lib.vercel.app/",
   },
 ];
 
@@ -217,13 +217,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/nikhilkoshta",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/codingnikki",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/nikhilkoshta/",
   },
 ];
